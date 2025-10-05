@@ -1,0 +1,81 @@
+.add-location-container {
+  position: relative;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 40px 20px 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.add-location-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+
+.add-location-container .back-button {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+.add-location-container .back-button:hover {
+  background-color: #c0392b;
+}
+
+
+.add-location-container .save-button {
+  width: 100%;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 16px;
+  transition: background-color 0.3s ease;
+}
+.add-location-container .save-button:hover {
+  background-color: #27ae60;
+}
+
+
+.add-location-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 12px;
+  transition: border-color 0.2s ease;
+}
+.add-location-container input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.add-location-container .success {
+  margin-top: 12px;
+  text-align: center;
+  color: #27ae60;
+  font-weight: 500;
+}
+.add-location-container .error {
+  margin-top: 12px;
+  text-align: center;
+  color: #e74c3c;
+  font-weight: 500;
+}
